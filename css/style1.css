@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+        font-family: "Poppins","Noto Sans Myanmar",sans-serif;
+        background: white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #2a81ba;;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.fz-18 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.goal-card >span{
+    background-color: silver;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    position: absolute;
+    top: -2px;
+    left: -1rem;
+}
+.goal-card> h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.goal-card-text>p {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 0.9rem;
+}
+.outline-course {
+    color: brown;
+    font-size: 14px;
+}
+@media screen and (min-width: 768px){
+    .goal-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:flex-start;
+    }
+}
+@media screen and (min-width: 768px){
+        .goal-card>.text-primary {
+            flex-basis: 40%;
+        }
+}
+@media screen and (min-width: 768px){
+    .goal-card-text{
+        flex-basis: 40%;
+    }
+}
+@media screen  and (min-width: 768px){
+    .goal-card>.outline-course {
+        flex: 1;
+    }
+}
+.goal-card {
+    position: relative;
+    padding-left: 2.6rem;
+    padding-bottom:1.3rem;
+    border-left: 2px solid brown;
+}
+.goal-body {
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0;
+    flex-direction: column;
+}
+.bln4,.bln3,.bln2 {
+   border-left:0 none;
+}
+.attach-class {
+    background-color: #ddf2ff;
+}
+.attach-class-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.card {
+    border: 1px solid #2a81ba;
+    cursor: pointer;
+}
+.card:hover {
+   box-shadow: 0px 0px 2.5rem rgba(42, 128, 186, 0.2078431373);;
+}
+.card-title >a {
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #2a81ba;
+}
+.card-body>p>a {
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+/*  */
+
+.course >ul {
+    list-style: circle;
+    color: #2a81ba;
+    font-size: 25px;
+    line-height: 1.8rem;
+}
+.course >ul > li> :first-child {
+    display: inline-block;
+    width: 150px;
+    color: black;
+    font-size:20px ;
+    font-weight: 600;
+}
+.course >ul > li :last-child {
+    color: #2a81ba;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bg-gb {
+    background-color: #ddf2ff;
+}
+.require h5,.include h5, .confer-school h5 {
+    font-weight: 600;
+    font-size: 23px;
+}
+.require p,.course p  {
+    font-size: 18px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+.start-learn-computer {
+    font-size: 18px;
+    font-weight: 500;
+}
+.include p {
+    font-size: 18px;
+}
+.confer-school> ul >li> :first-child {
+    display: inline-block;
+    width: 170px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+.confer-school> ul >li> :last-child {
+    color: #2a81ba;
+    font-size: 18px;
+}
+.confer-school >.confer-school-text{
+    font-size: 19px;
+    font-weight: 500;
+}
+.confer-school ul {
+    list-style: none;
+    line-height: 1.7rem;
+    margin: 0;
+    padding: 0;
+}
+.pwd2022 {
+    font-size: 18px;
+}
+
+

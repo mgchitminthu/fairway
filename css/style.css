@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Myanmar:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Poppins","Noto Sans Myanmar",sans-serif;
+    background-color:#ddf2ff; 
+}
+@media screen and (max-width: 768px) {
+    header {
+        background: #2a81ba;
+        color: white;
+    }
+}
+h4 {
+    font-weight: 600;
+}
+.choicePurposie p {
+    font-size: 20px;
+    font-weight: 500;
+}
+nav {
+    background-color:  #2a81ba;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.choiceButton {
+    border: 0.5px solid #2a81ba;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 0px;
+    transition: all 0.4s ease;
+}
+.choiceButton:hover {
+    transform: scale(1.1);
+    background: white;
+    border: 0.5px solid #2a81ba;
+    color: #2a81ba;
+}
+.new-class{
+    text-decoration: none;
+    padding: 18px;
+    color: black;
+}
+.new-class > p {
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+.card {
+    border: 1px solid #2a81ba;
+}
+.choiceClass {
+    background-color: #c3e6fe;
+}
+.choiceClass p {
+    font-size: 18px;
+    line-height: 2rem;
+}
+.choiceClass .card p {
+    font-size: 18px;
+}
+.choiceClass label {
+    position: relative;
+
+    padding-left: 30px;
+    font-weight: 500;
+    color: #2a81ba;
+    font-size: 17px;
+    user-select: none;
+}
+.choiceClass label input {
+    position: absolute;
+    opacity: 0;
+}
+.choiceClass label span {
+    position: absolute;
+    top: 3px;    
+    left: 0;
+    border: 2px solid silver;
+    height: 1.3rem;
+    width: 1.3rem;
+    border-radius: 4px;
+    text-align: center;
+}
+.choiceInput {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #2a81ba;
+}
+.card-wrap >ul>li {
+    margin-bottom: 18px;
+}
+@media screen and (min-width: 768px){
+    .card-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 768px){
+    .choiceInput {
+        flex: 1;
+        border-right: 1px solid #2a81ba;
+        border-bottom: 0 none;
+    }
+}
+@media screen and (min-width: 768px){
+    .totalTimeAndPrice {
+        flex: 1;
+        margin-left: 2rem;
+    }
+}
+footer {
+    background-color: #2a81ba;
+}
+ .footer-warp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.contcat,.qul,.location,.copy{
+    font-size: 14px;
+    font-weight: 600px;
+}
+@media screen and (min-width: 786px) {
+    .contcat {
+        order: 2;
+    }
+}
+@media screen and (min-width: 786px) {
+    .qul{
+        order: 3;
+    }
+}
+.timeAndPrice {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.fa-check {
+   margin-top: -10px;
+}
+.inputLable> i {
+    position: absolute;
+    top: 14.9px;
+    left: 3.2px;
+    color: brown;
+}
+#totalTime, #totalPrice{
+    font-size: 20px;
+    color: brown;
+    font-weight: bold;
+}
+.button-container {
+    background-color: #c3e6fe;
+}
+.up-arrow {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background-color: #2a81ba;
+    border: 1.5px solid white;
+    position: fixed;
+    top: 60%;
+    right: 15px;
+    animation: move 4s ease-in 0s infinite;
+    transition: all 0.4s ease-in;
+}
+@keyframes move {
+    30%{
+        top: 70%;
+    }
+    50% {
+        top: 65%;
+    }
+    100% {
+        top: 60%;
+    }
+}
+
+
+
+
+
+
+
+
+
